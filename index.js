@@ -41,7 +41,7 @@ function getAssetList() {
   let url = API_URL + 'assets/' + '?key=' + API_KEY;
   return fetchAssets(url);
 }
-getAssetList();
+// getAssetList();
 
 // assets: get
 // GET https://poly.googleapis.com/v1/{name=assets/*}
